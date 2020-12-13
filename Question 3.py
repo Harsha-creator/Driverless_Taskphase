@@ -13,9 +13,9 @@ for j in range(0,n/2):
 if(flag==1):
     print("not palindrome")
 else:
-    for k in range(n):
-       print( convert_to_hex(ord(lst[k]))
-k =0 
+    for l in range(n):
+       print( convert_to_hex(ord(lst[l]))
+k = 0 
 for i in range(2*n - 1):
     for j in range(n-k-1):
         print(" ")
