@@ -25,7 +25,7 @@ for i in range(R):
     for j in range(C):       
          a.append(int(input())) 
     B.append(a) 
-    
+result = []
 def matrixmult(A,B):
     for i in range(len(A)):
         for j in range(len(B[0])): 
