@@ -3,7 +3,7 @@ def  convert_to_hex(ascii_value):
 lst = [] 
 n = int(input("Enter number of elements : ")) 
 for i in range(0, n): 
-    ele = int(input()) 
+    ele = input()
     lst.append(ele)
 flag = 0
 for j in range(0,n/2):
