@@ -11,6 +11,7 @@ for i in range(R):
     for j in range(C):       
          a.append(int(input())) 
     A.append(a) 
+m = R
     
 print("input for B")
 R = int(input("Enter the number of rows:")) 
@@ -24,8 +25,9 @@ for i in range(R):
     a =[] 
     for j in range(C):       
          a.append(int(input())) 
-    B.append(a) 
-result = []
+    B.append(a)
+n = c
+result = [[0] * n]*m]
 def matrixmult(A,B):
     for i in range(len(A)):
         for j in range(len(B[0])): 
